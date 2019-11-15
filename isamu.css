@@ -14,8 +14,8 @@
     font-size: 40px;
     color: white;
 }
-.swiper-container{
-    margin: 5px;
+.swiper-wrapper{
+    margin-left: 7%;
 }
 .swiper-slide img{
    height: 70vh;
