@@ -1,6 +1,8 @@
 *{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    text-decoration: none;color: black;
+    background-color: rgb(190, 186, 186);
+
 
 }.toppu{
     display: flex;
@@ -20,3 +22,17 @@
     font-size: 30px;
     padding: 5%;
 }
+
+ .square{
+    width: 500px;
+    height: 80px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+  
+  .square:hover{
+    transform: translateX(300px);
+  }
