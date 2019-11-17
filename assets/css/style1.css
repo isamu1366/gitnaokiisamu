@@ -1,7 +1,7 @@
 *{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;color: black;
-    background-color: rgb(190, 186, 186);
+    
 
 
 }.toppu{
@@ -22,17 +22,38 @@
     font-size: 30px;
     padding: 5%;
 }
+.fun h2 {
+    width: 100%;
+    background-color: rgb(228, 226, 226);
+}
 
  .square{
-    width: 500px;
+    width: 300px;
     height: 80px;
     transition: 1s;
     -webkit-transition: 1s;
     border-radius: 10px;
     text-align: center;
-    
+    font-size: 50px;
+}
+.square a {
+    color: red;
 }
   
   .square:hover{
     transform: translateX(300px);
   }
+footer {
+    width: 100%;
+    height: 100px;
+}
+button {
+    font-size: 30px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.box3 {
+    text-align: center;
+}
