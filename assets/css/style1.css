@@ -58,8 +58,7 @@ button {
     text-align: center;
 }
 .box2 img {
-    width: 100%;
-    height: 500px;
+    object-fit: cover;
 }
 .box3 {
     text-align: center;
@@ -70,6 +69,11 @@ button {
 }
 .box3 {
     margin-top: 50px;
+    
+    }
+    .box2 img {
+        width: 100%;
+    }
 }
 }
 @media screen and (max-width:680px) {
@@ -78,5 +82,8 @@ button {
     }
     .box3 {
         margin-top: 50px;
+    }
+    .box2 img {
+        width: 100%;
     }
     }
